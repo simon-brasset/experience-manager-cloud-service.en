@@ -39,7 +39,7 @@ This diagram provides an overview of the recommended project structure and packa
 
 The recommended application deployment structure is as follows:
 
-+ The `ui.apps` package, or Content Package, contains all the code to be deployed and only deploys to `/apps`. Common elements of the `ui.apps` package include, but are not limited to:
++ The `ui.apps` package, or Code Package, contains all the code to be deployed and only deploys to `/apps`. Common elements of the `ui.apps` package include, but are not limited to:
   + OSGi bundles
     + `/apps/my-app/install`
   + OSGi configurations
@@ -54,7 +54,7 @@ The recommended application deployment structure is as follows:
     + `/apps/settings`
   + ACLs (permissions)
     + Any `rep:policy` for any path under `/apps`
-+ The `ui.content` package, or Code Package, contains all content and configuration. Common elements of the `ui.content` package include, but are not limited to:
++ The `ui.content` package, or Content Package, contains all content and configuration. Common elements of the `ui.content` package include, but are not limited to:
   + Context-aware configurations
     + `/conf`
   + Baseline content structures (Asset folders, Sites root pages)
